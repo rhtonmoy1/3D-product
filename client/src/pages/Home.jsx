@@ -18,15 +18,16 @@ const Home = () => {
         <motion.section className='home' {...slideAnimation('left')}>
           <motion.header {...slideAnimation('down')}>
           <img 
-          src="./threejs.png" 
+          // src="./threejs.png"
+          src="./tonmoy.png"  
           alt="logo"
           className="2-8 h-8 object-contain" 
           />
           </motion.header>
           <motion.div className="home-content" {...headContainerAnimation}>
             <motion.div {...headTextAnimation}>
-              <h1 className='head-text'>
-                Let'S <br className='xl:block hidden'/> DO IT.
+              <h1 className='head-text'>Tonmoy
+                <br className='xl:block hidden'/>AI.
               </h1>
             </motion.div>
             <motion.div className='flex flex-col gap-5' {...headContentAnimation}>
